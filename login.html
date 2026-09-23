@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Iniciar sesión · La Charcutería</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="login">
+  <div class="login-wrap">
+    <div class="login-card">
+      <div class="brand-logo">🥓</div>
+      <h1>La Charcutería</h1>
+      <div class="sub">Panel administrativo</div>
+      <form id="loginForm">
+        <div class="field">
+          <label for="usuario">Usuario</label>
+          <input id="usuario" name="usuario" autocomplete="username" required>
+        </div>
+        <div class="field">
+          <label for="password">Contraseña</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required>
+        </div>
+        <button class="btn" type="submit">Entrar al panel</button>
+      </form>
+      <div class="login-hint">
+        <strong>Demo:</strong><br>
+        Admin → <code>admin</code> / <code>admin123</code><br>
+        Empleado → <code>empleado</code> / <code>empleado123</code>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

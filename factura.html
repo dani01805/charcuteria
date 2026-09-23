@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Factura · La Charcutería</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="factura" style="background:var(--crema)">
+  <div class="no-print" style="padding:16px 28px;background:#fff;border-bottom:1px solid var(--linea);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+    <strong style="font-family:'Playfair Display',serif;font-size:18px">🧾 Factura / Recibo</strong>
+    <div style="display:flex;gap:10px">
+      <a href="pedidos.html" class="btn secondary">← Volver a pedidos</a>
+      <button class="btn" id="btnImprimir">🖨️ Imprimir</button>
+    </div>
+  </div>
+  <div id="facturaContenido"></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
